@@ -3,3 +3,64 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-bar {
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+.home-bar a {
+  color: black;
+}
+
+.sx {
+  float: left;
+}
+
+.dx {
+  float: right;
+}
+
+.sx img {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.sx a {
+  padding-left: 30px;
+}
+
+.dx a {
+  margin-right: 30px;
+}
+
+header img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #3b85ff;
+  color: white;
+  padding: 5px 15px;
+}
+
+.dx .btn {
+  color: white;
+}
