@@ -18,7 +18,7 @@ body {
 /* Home-Bar */
 .home-bar {
   height: 80px;
-  width: 100%;
+  width: 98%;
   line-height: 80px;
   margin: 0 auto;
   /* background-color: red; */
@@ -34,7 +34,6 @@ body {
 
 /* Logo */
 #logo {
-  padding-left: 20px;
   padding-bottom: 5px;
   vertical-align: middle;
 }
@@ -43,21 +42,21 @@ body {
   margin-left: 30px;
 }
 
-.dx .link,
+/* Bottoni */
 .btn {
+  background-color: #0061ff;
+  color: white;
+  padding: 8px 20px;
+  margin: 0 auto;
+}
+
+.link {
   margin-right: 30px;
 }
 
 a {
   text-decoration: none;
   color: black;
-}
-
-/* Bottoni */
-.btn {
-  background-color: #0061ff;
-  color: white;
-  padding: 8px 20px;
 }
 
 /* Main */
@@ -106,6 +105,7 @@ p {
   margin: 0 auto;
 }
 
+/* Radio Button */
 .fatturazione {
   margin-bottom: 40px;
 }
@@ -123,4 +123,72 @@ h2 {
 
 label {
   padding-right: 20px;
+}
+
+/* Colonne */
+
+.colonna {
+  float: left;
+  height: 900px;
+  /* width: calc((100% / 3)); */
+  width: 300px;
+  border: 1px solid grey;
+  margin-right: 60px;
+}
+
+.title {
+  padding: 10px 0px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.plan {
+  padding: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.little-text {
+  color: grey;
+  margin-bottom: 50px;
+}
+
+.utenti,
+.spazio,
+.funzioni {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.oppure {
+  margin: 20px 0px;
+}
+
+.acquista {
+  color: #166eff;
+  border-bottom: 1px solid #166eff;
+}
+
+.linea {
+  border-bottom: 1px solid grey;
+  width: 50px;
+  margin: 20px 0px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 25px;
 }
