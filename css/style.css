@@ -24,6 +24,10 @@ body {
   /* background-color: red; */
 }
 
+.row {
+  width: 100%;
+}
+
 .sx {
   float: left;
 }
@@ -130,9 +134,13 @@ label {
 .colonna {
   float: left;
   height: 900px;
-  width: calc((100% / 3) - 60px);
-  /* width: 350px; */
+  width: calc((100% / 3) - 40px);
   border: 1px solid grey;
+  margin-bottom: 50px;
+}
+
+.centrale {
+  margin-left: 60px;
   margin-right: 60px;
 }
 
@@ -195,4 +203,41 @@ li {
 
 .fa-check {
   color: #0061ff;
+}
+
+/* Sezione Enterprise */
+
+.title-plan {
+  text-align: center;
+  padding: 10px 0px;
+  border: 1px solid grey;
+  border-bottom: none;
+}
+
+.enterprise {
+  border: 1px solid grey;
+}
+
+#soluzioni {
+  margin-top: 25px;
+}
+
+/* Sezione partner */
+
+.container {
+  margin-top: 100px;
+}
+
+.container .dx {
+  width: 40%;
+  /* margin-left: 5%; */
+}
+
+.container a {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+#img1 {
+  height: 500px;
 }
