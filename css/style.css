@@ -260,5 +260,11 @@ p {
 
 .col2 {
   float: left;
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 40px);
+}
+
+/* Sezione Team */
+.team h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
