@@ -47,6 +47,7 @@ body {
   background-color: #0061ff;
   color: white;
   padding: 8px 20px;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -101,7 +102,7 @@ p {
 /* Center */
 .container-center {
   padding-top: 200px;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -113,7 +114,6 @@ p {
 h2 {
   font-size: 40px;
   margin-bottom: 60px;
-  text-align: center;
 }
 
 #mensile input {
@@ -130,8 +130,8 @@ label {
 .colonna {
   float: left;
   height: 900px;
-  /* width: calc((100% / 3)); */
-  width: 300px;
+  width: calc((100% / 3) - 60px);
+  /* width: 350px; */
   border: 1px solid grey;
   margin-right: 60px;
 }
@@ -144,6 +144,7 @@ label {
 
 .plan {
   padding: 30px;
+  font-size: 14px;
 }
 
 h3 {
@@ -164,7 +165,6 @@ h4 {
 .utenti,
 .spazio,
 .funzioni {
-  font-size: 14px;
   margin-bottom: 20px;
 }
 
@@ -191,7 +191,6 @@ h5 {
 li {
   list-style: none;
   margin-bottom: 25px;
-  font-size: 14px;
 }
 
 .fa-check {
