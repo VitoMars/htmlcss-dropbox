@@ -224,20 +224,41 @@ li {
 
 /* Sezione partner */
 
-.container {
+.partner {
   margin-top: 100px;
 }
 
-.container .dx {
+.partner .dx {
   width: 40%;
   /* margin-left: 5%; */
 }
 
-.container a {
+.partner a {
   border: 1px solid black;
   padding: 10px 20px;
 }
 
 #img1 {
   height: 500px;
+}
+
+/* Sezione operations */
+
+.operations h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.operations img {
+  height: 200px;
+}
+
+.operations h3,
+p {
+  width: 260px;
+}
+
+.col2 {
+  float: left;
+  width: calc(100% / 3);
 }
