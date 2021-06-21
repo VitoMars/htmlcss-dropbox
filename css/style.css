@@ -268,3 +268,52 @@ p {
   margin-top: 60px;
   margin-bottom: 30px;
 }
+
+/* Sezione Sponsor */
+
+.col-side {
+  height: 30vw;
+  width: 30vw;
+  background-color: yellow;
+}
+
+.sponsor {
+  height: 15vw;
+  width: 15vw;
+  text-align: center;
+  line-height: 15vw;
+}
+
+.sponsor img {
+  width: 50%;
+  vertical-align: middle;
+}
+
+/* Colori Sponsor */
+.green {
+  background-color: #a2d39b;
+}
+
+.brown {
+  background-color: #61082b;
+}
+
+.ligh-blue {
+  background-color: #0093ce;
+}
+
+.red {
+  background-color: #ff1c1c;
+}
+
+.heavenly {
+  background-color: #b4d0e7;
+}
+
+.blue {
+  background-color: #0d2481;
+}
+
+.yellow {
+  background-color: #ffd830;
+}
