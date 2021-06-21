@@ -46,6 +46,10 @@ body {
   margin-left: 30px;
 }
 
+.dx .link {
+  margin-right: 30px;
+}
+
 /* Bottoni */
 .btn {
   background-color: #0061ff;
@@ -53,10 +57,6 @@ body {
   padding: 8px 20px;
   text-align: center;
   margin: 0 auto;
-}
-
-.link {
-  margin-right: 30px;
 }
 
 a {
@@ -83,7 +83,7 @@ h1 {
   padding-bottom: 40px;
 }
 
-p {
+.jumbo p {
   padding-bottom: 40px;
   width: 395px;
 }
