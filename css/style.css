@@ -265,6 +265,7 @@ p {
 .col2 {
   float: left;
   width: calc((100% / 3) - 40px);
+  margin-bottom: 100px;
 }
 
 /* Sezione Team */
@@ -281,10 +282,10 @@ p {
 /* Sezione Sponsor */
 
 .col-side {
-  height: 30vw;
+  /* height: 30vw; */
   /* width: 30vw; */
   width: calc(30vw + 5px);
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .col-center {
