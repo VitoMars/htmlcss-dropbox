@@ -36,6 +36,10 @@ body {
   float: right;
 }
 
+.dx p {
+  margin-bottom: 20px;
+}
+
 /* Logo */
 #logo {
   padding-bottom: 5px;
@@ -264,6 +268,11 @@ p {
 }
 
 /* Sezione Team */
+
+.team {
+  margin-bottom: 50px;
+}
+
 .team h2 {
   margin-top: 60px;
   margin-bottom: 30px;
@@ -273,11 +282,41 @@ p {
 
 .col-side {
   height: 30vw;
-  width: 30vw;
+  /* width: 30vw; */
+  width: calc(30vw + 5px);
   background-color: yellow;
 }
 
+.col-center {
+  float: left;
+  background-color: #f5f5f5;
+  padding: 50px;
+  width: calc(100% - 61vw);
+  height: 30vw;
+  overflow-y: auto;
+}
+
+.barra {
+  height: 1px;
+  background-color: #d0d0d3;
+  width: 50px;
+  margin: 30px 0px;
+}
+
+.col-center img {
+  width: 25%;
+}
+
+.col-center p {
+  margin: 50px 0px;
+}
+
+.col-center span {
+  padding-bottom: 10px;
+}
+
 .sponsor {
+  display: inline-block;
   height: 15vw;
   width: 15vw;
   text-align: center;
@@ -316,4 +355,26 @@ p {
 
 .yellow {
   background-color: #ffd830;
+}
+
+/* Prova Gratuita */
+
+.background-blue {
+  height: 350px;
+  background-color: #b4d0e7;
+}
+
+.background-blue h2 {
+  color: #61082b;
+  width: 60%;
+}
+
+.container2 {
+  width: 60%;
+  padding: 120px 0px;
+  margin: 0 auto;
+}
+
+.white {
+  background-color: white;
 }
