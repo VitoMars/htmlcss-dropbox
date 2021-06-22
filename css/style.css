@@ -17,11 +17,13 @@ body {
 
 /* Home-Bar */
 .home-bar {
+  position: fixed;
+  background-color: white;
+  padding: 0px 20px;
   height: 80px;
-  width: 98%;
+  width: 100%;
   line-height: 80px;
   margin: 0 auto;
-  /* background-color: red; */
 }
 
 .row {
