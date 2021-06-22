@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -23,6 +27,7 @@ body {
   height: 80px;
   width: 100%;
   line-height: 80px;
+  z-index: 1;
   margin: 0 auto;
 }
 
@@ -73,15 +78,25 @@ a {
 /* Main */
 
 .jumbo-color {
-  height: 750px;
+  /* height: 750px; */
   /* width: 100%; */
   background-color: #b4d0e7;
 }
 
 .jumbo {
+  position: relative;
   padding-top: 5%;
   width: 70%;
   margin: 0 auto;
+  bottom: -80px;
+}
+
+.jumbo .sx {
+  width: 30%;
+}
+
+.jumbo .dx {
+  width: 65%;
 }
 
 h1 {
@@ -110,8 +125,12 @@ h1 {
 }
 
 /* Center */
+
+#plans {
+  padding-top: 100px;
+}
+
 .container-center {
-  padding-top: 200px;
   width: 60%;
   margin: 0 auto;
 }
