@@ -205,6 +205,9 @@ h5 {
 
 li {
   list-style: none;
+}
+
+.plan li {
   margin-bottom: 25px;
 }
 
@@ -391,4 +394,57 @@ li {
 
 .top {
   border-top: 1px solid #d0d0d3;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 150px;
+  padding-top: 80px;
+  height: 500px;
+  background-color: black;
+}
+
+.up {
+  margin: 0 auto;
+}
+
+.up,
+.bottom {
+  width: 80%;
+}
+
+/* Colonne */
+
+.col {
+  float: left;
+  width: 20%;
+}
+
+.col h5 {
+  font-size: 18px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.col a {
+  display: inline-block;
+  margin-top: 8px;
+  color: white;
+}
+
+/* Footer Bottom */
+
+.bottom {
+  border-top: 1px solid white;
+  margin-top: 100px;
+  margin-left: 10%;
+  width: 100px;
+}
+.language {
+  margin-top: 50px;
+}
+
+.language a {
+  color: grey;
 }
