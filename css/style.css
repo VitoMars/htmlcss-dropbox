@@ -258,7 +258,7 @@ li {
 }
 
 .operations h3,
-p {
+.operations p {
   width: 260px;
 }
 
@@ -282,19 +282,16 @@ p {
 /* Sezione Sponsor */
 
 .col-side {
-  /* height: 30vw; */
-  /* width: 30vw; */
-  width: calc(30vw + 5px);
-  /* background-color: yellow; */
+  height: 30vw;
+  width: 30vw;
 }
 
 .col-center {
   float: left;
   background-color: #f5f5f5;
   padding: 50px;
-  width: calc(100% - 61vw);
   height: 30vw;
-  overflow-y: auto;
+  width: calc(100% - 60vw);
 }
 
 .barra {
@@ -327,6 +324,7 @@ p {
 .sponsor img {
   width: 50%;
   vertical-align: middle;
+  filter: invert(1);
 }
 
 /* Colori Sponsor */
