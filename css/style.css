@@ -195,9 +195,12 @@ h4 {
   margin: 20px 0px;
 }
 
+.linea h5 {
+  margin-bottom: 20px;
+}
+
 h5 {
   font-size: 16px;
-  margin-bottom: 20px;
 }
 
 li {
@@ -292,6 +295,7 @@ li {
   padding: 50px;
   height: 30vw;
   width: calc(100% - 60vw);
+  overflow-y: auto;
 }
 
 .barra {
@@ -370,10 +374,21 @@ li {
 
 .container2 {
   width: 60%;
-  padding: 120px 0px;
+  padding-top: 120px;
   margin: 0 auto;
 }
 
 .white {
   background-color: white;
+}
+
+/* Sezione faq */
+
+.faq {
+  padding: 35px 0px;
+  border-bottom: 1px solid #d0d0d3;
+}
+
+.top {
+  border-top: 1px solid #d0d0d3;
 }
