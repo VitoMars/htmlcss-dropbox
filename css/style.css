@@ -127,7 +127,7 @@ h1 {
 /* Center */
 
 #plans {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .container-center {
@@ -389,6 +389,7 @@ li {
 .background-blue {
   height: 350px;
   background-color: #b4d0e7;
+  margin-bottom: 150px;
 }
 
 .background-blue h2 {
